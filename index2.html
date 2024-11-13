@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tienda.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>mubele</title>
+</head>
+
+<body class="bg-white text-gray-700">
+
+    <header class="flex justify-between items-center p-4 bg-gray-200">
+        <div class="flex justify-between items-center w-full">
+            <div class="flex space-x-4">
+                <a href="#contacto" class="text-black hidden sm:block">Contacto</a>
+                <a href="#sobremi" class="text-black hidden sm:block">Sobre Nosotros</a>
+            </div>
+            <div class="text-sm sm:text-base md:text-2xl font-semibold text-black text-left">
+                NOMBRE DE LA TIENDA
+            </div>
+            <div class="flex space-x-4 text-sm sm:text-base md:text-base text-right">
+                <label class="text-black">PERFIL</label>
+                <label class="text-black">CARRITO</label>
+            </div>
+        </div>
+    </header>
+
+    <div class="my-4 border-t-2 border-gray-300"></div>
+
+    <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-4">
+        <div class="bg-gray-100 p-10 text-center rounded-lg text-gray-500 h-[400px]">CARD PRODUCTO</div>
+        <div class="bg-gray-100 p-10 text-center rounded-lg text-gray-500 h-[400px]">CARD PRODUCTO</div>
+        <div class="bg-gray-100 p-10 text-center rounded-lg text-gray-500 h-[400px]">CARD PRODUCTO</div>
+        <div class="bg-gray-100 p-10 text-center rounded-lg text-gray-500 h-[400px]">CARD PRODUCTO</div>
+    </section>
+
+    <section class="text-center p-4 bg-gray-100 my-4">
+        <div class="h-32 bg-gray-300 mx-auto mb-2 h-[400px]"><P>FOTO TOP</P></div>
+        <p class="font-semibold text-gray-500">SECCION TOP</p>
+    </section>
+
+    <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-4">
+        <div class="bg-gray-100 p-10 text-center rounded-lg text-gray-500 h-[400px]">CARD PRODUCTO</div>
+        <div class="bg-gray-100 p-10 text-center rounded-lg text-gray-500 h-[400px]">CARD PRODUCTO</div>
+        <div class="bg-gray-100 p-10 text-center rounded-lg text-gray-500 h-[400px]">CARD PRODUCTO</div>
+        <div class="bg-gray-100 p-10 text-center rounded-lg text-gray-500 h-[400px]">CARD PRODUCTO</div>
+    </section>
+
+    <section class="flex justify-center items-center p-4 bg-gray-200">
+        <div class="text-center text-gray-600 font-semibold h-[400px]">SECCION JOVENES</div>
+    </section>
+
+    <section class="flex flex-col md:flex-row items-center p-4 bg-gray-100 items-center justify-center">
+        <div class="w-full h-32 bg-gray-300 h-[400px]"><p>FOTO RELAX</p></div>
+        <div class="md:w-1/2 text-gray-600 text-center md:text-lefth-[400px]">
+            <p class="font-semibold">SECCION RELAX</p>
+        </div>
+    </section>
+
+    <section class="flex flex-col md:flex-row items-center p-4 bg-gray-200" id="sobremi">
+        <div class="md:w-1/2 text-gray-600 h-[400px]">
+            <p class="font-semibold">SOBRE NOSOTROS</p>
+        </div>
+        <div class="w-full md:w-1/2 h-32 bg-gray-300 h-[400px]"></div>
+    </section>
+
+    <footer class="p-4 bg-gray-200 text-center">
+        <h3 class="text-lg font-semibold mb-2">Contacto</h3>
+        <p>INFORMACION FOOTER</p>
+    </footer>
+
+</body>
+
+</html>

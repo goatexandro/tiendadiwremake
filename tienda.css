@@ -56,8 +56,8 @@ header {
 .der img {
     border-radius: 0;
     border: 2px solid #fff;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .der img:hover {

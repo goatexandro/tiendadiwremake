@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tienda.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>mubele detalle producto</title>
+</head>
+
+<body class="bg-white text-gray-700 min-h-screen grid grid-rows-[auto_1fr_auto]">
+
+    <header class="flex justify-between items-center p-4 bg-gray-200">
+        <div class="flex justify-between items-center w-full">
+            <div class="flex space-x-4">
+                <a href="#contacto" class="text-black hidden sm:block">Contacto</a>
+                <a href="#sobremi" class="text-black hidden sm:block">Sobre Nosotros</a>
+            </div>
+            <div class="text-sm sm:text-base md:text-2xl font-semibold text-black text-left">
+                NOMBRE DE LA TIENDA
+            </div>
+            <div class="flex space-x-4 text-sm sm:text-base md:text-base text-right">
+                <label class="text-black">PERFIL</label>
+                <label class="text-black">CARRITO</label>
+            </div>
+        </div>
+    </header>
+
+    <div class="w-full p-8 bg-gray-100">
+        <div class="flex flex-col md:flex-row md:space-x-6 items-start">
+            <div class="w-full h-[300px] sm:h-[400px] md:w-1/2 md:h-[600px] bg-gray-300 flex items-center justify-center font-semibold">
+                Foto Producto
+            </div>
+            <div class="w-full md:w-1/2 h-[600px] flex flex-col justify-between">
+                <h2 class="text-2xl font-semibold text-gray-800">NOMBRE DEL PRODUCTO</h2>
+                <p>DESCRIPCION PRODUCTO</p>
+                <p>FECHA ESTIMADA: FECHA</p>
+                <p>ICONOS DE COMPARTIR</p>
+                <div class="flex flex-col items-center space-y-4">
+                    <p class="text-4xl font-bold text-gray-800">PRECIO:</p>
+                    <div class="flex space-x-6">
+                        <div class="bg-gray-300 text-black py-3 px-6 text-center">
+                            BOTON COMPRAR
+                        </div>
+                        <div class="bg-gray-300 text-black py-3 px-6 text-center">
+                            BOTON ENVIAR CARRO
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="p-6 bg-gray-200 text-center">
+        <p class="text-black">INFORMACION FOOTER</p>
+    </footer>
+
+</body>
+</html>
